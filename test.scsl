@@ -1,0 +1,23 @@
+VAR INT1 = 2
+VAR FLOAT1 = 2.2
+VAR BOOL1 = TRUE
+VAR BOOL2 = FALSE
+VAR STRING = "ABC"
+
+PRINT("Hello, World!")
+
+FUN hello(name)
+        VAR mname = name
+        PRINT("Hello, " + mname + "!")
+END
+
+PRINT(INT1)
+PRINT(FLOAT1)
+PRINT(BOOL1)
+PRINT(BOOL2)
+PRINT(STRING)
+
+PRINT(17^2)
+
+hello("mike")
+
